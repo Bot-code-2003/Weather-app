@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Poppins" sans-serif; */
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 580px;
+  /* background: linear-gradient(135deg, #00feba, #5b545a); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(154, 27, 27, 1) 0%,
+    rgba(121, 88, 9, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(202, 248, 83, 1) 0%,
+    rgba(61, 189, 123, 1) 50%,
+    rgba(102, 255, 241, 1) 100%
+  ); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(202, 248, 83, 1) 0%,
+    rgba(97, 214, 93, 1) 28%,
+    rgba(99, 250, 178, 1) 75%,
+    rgba(102, 255, 241, 1) 100%
+  ); */
+  background: linear-gradient(
+    90deg,
+    rgba(164, 199, 79, 1) 0%,
+    rgba(56, 186, 173, 1) 100%
+  );
+
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  flex: 1;
+  background-color: rgb(207, 243, 255);
+  padding: 10px 25px;
+  border-radius: 20px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.search button {
+  background-color: rgb(207, 243, 255);
+  border: 0;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.search button img {
+  width: 19px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 15px;
+}
+
+.col img {
+  width: 50px;
+}
+
+.humidity,
+.wind {
+  font-size: 22px;
+}
+
+.weatherIcon {
+  width: 224px;
+  height: 224px;
+}
+
+.error {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: none;
+}
+
+.weather p {
+}
