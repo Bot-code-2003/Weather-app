@@ -39,8 +39,8 @@ async function checkWeather(city) {
         "linear-gradient(0deg, rgba(172,183,189,1) 0%, rgba(36,82,90,1) 100%)"
       );
       $(".weather>p").text("Cloudy");
-    } else if (weatherMain === "haze"){
-      (".card").css(
+    } else if (weatherMain === "haze") {
+      $(".card").css(
         "background",
         "radial-gradient(circle, rgba(255,209,132,1) 0%, rgba(209,142,111,1) 100%)"
       );
