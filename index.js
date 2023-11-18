@@ -36,7 +36,7 @@ async function checkWeather(city) {
     } else if (weatherMain === "clouds") {
       $("body").css(
         "background",
-        "linear-gradient(0deg, rgba(172,183,189,1) 0%, rgba(36,82,90,1) 100%)"
+        "linear-gradient(90deg, rgba(0,119,191,1) 0%, rgba(0,117,140,1) 100%)"
       );
       $(".weather>p").text("Cloudy");
     } else if (weatherMain === "haze") {
